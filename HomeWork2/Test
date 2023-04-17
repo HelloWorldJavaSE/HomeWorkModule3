@@ -1,0 +1,17 @@
+
+public class Main {
+    public static void main(String[] args) {
+    MyLinkedList<String> myLinkedList = new MyLinkedList<>();
+    myLinkedList.add("Test0");
+    myLinkedList.print();
+    myLinkedList.remove(0);
+    myLinkedList.print();
+        System.out.println();
+    myLinkedList.add("Test1");
+    myLinkedList.add("Test3");
+    myLinkedList.add("Test2",1);
+    myLinkedList.print();
+
+
+    }
+}
